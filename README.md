@@ -2,6 +2,13 @@
 Short-Term Day-Ahead Hydrothermal Scheduling with Variable Renewables, Storage, Load Shedding using Artificial Intelligence Techniques for Demand Forecasting
 # Short-Term Day-Ahead Hydrothermal Scheduling with Variable Renewables, Storage, Load Shedding using Artificial Intelligence Techniques for Demand Forecasting
 
+Auhtors:
+Alfonso Vázquez. Mendoza, IEEE Member
+Héctor F. Ruiz Paredes, Life Senior IEEE Member, IEEE.
+ID:9632
+
+
+
 This repository contains code and resources related to Short-Term Day-Ahead Hydrothermal Scheduling with Variable Renewables, Storage, Load Shedding using Artificial Intelligence Techniques for Demand Forecasting. The information and materials provided here are for academic and research purposes only.
 
 ## License
