@@ -7,7 +7,6 @@ format shortG
 % STUDY CASES PATH
 % Add the path to the study case files
 % addpath('Path to files')
-addpath('C:\Users\Alfonso\Dropbox\Posgrado\Tesis\Paper STHS\PAPER REVISTA IEEE TRANSACTIONS\Codigos')
 
 %run Case_1.m   % Case 30IEEE, Unoptimized case
 %run Case_2.m   % Case 30IEEE, Optimized base case
@@ -441,14 +440,14 @@ for n=1:ii
 end    
     title('Flow rate','FontSize',15,'FontName','times')
     ylabel('Flow rate(m^3/s)','FontSize',12,'FontName','times')
-    xlabel('t (en horas)','FontSize',12,'FontName','times')
+    xlabel('t','FontSize',12,'FontName','times')
 legend('Reservoir 1','Reservoir 2','Reservoir 3','Reservoir 4','LOCATION','best','FontName','times')
 for n=1:ii
   subplot(3,1,3)  
     plot(t,Derrame_hidros(n,:),'-<','LineWidth',2); hold on; grid on;
 end    
     title('Spills','FontSize',15,'FontName','times')
-    ylabel('Spills(m^3)','FontSize',12,'FontName','times')
+    ylabel('(m^3)','FontSize',12,'FontName','times')
     xlabel('t','FontSize',12,'FontName','times')
 legend('Reservoir 1','Reservoir 2','Reservoir 3','Reservoir 4','LOCATION','best','FontName','times')
 end
